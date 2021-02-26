@@ -97,11 +97,6 @@ module.exports = {
       },
     ],
   },
-  optimization: {
-    splitChunks: {
-      minSize: 0,
-    },
-  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: "[name]_[contenthash:8].css",
@@ -111,7 +106,6 @@ module.exports = {
       cssProcessor: require("cssnano"),
     }),
     new CleanWebpackPlugin(),
-    new webpack.optimize.ModuleConcatenationPlugin(),
     //new HtmlWebpackExternalPlugin({
     //externals: [
     //{
