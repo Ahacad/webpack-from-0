@@ -1,5 +1,4 @@
 "use strict";
-
 const path = require("path");
 const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -34,6 +33,13 @@ module.exports = {
           "css-loader",
           "postcss-loader",
           "less-loader",
+          {
+            loader: "px2rem-loader",
+            options: {
+              remUnit: 75,
+              remPrecision: 8,
+            },
+          },
         ],
       },
       {
