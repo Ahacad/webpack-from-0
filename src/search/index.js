@@ -5,12 +5,14 @@ import ReactDOM from "react-dom";
 import "./search.less";
 import logo from "../images/savanah.png";
 import "../../common";
+import { a } from "./tree-shaking";
 
 class Search extends React.Component {
   render() {
+    const funcA = a();
     return (
       <div className="search-text">
-        Search Text
+        {funcA}Search Text
         <img src={logo} />
       </div>
     );

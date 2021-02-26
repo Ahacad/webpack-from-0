@@ -126,16 +126,16 @@ module.exports = {
     //],
     //}),
   ].concat(htmlWebpackPlugins),
-  optimization: {
-    splitChunks: {
-      minSize: 0,
-      cacheGroups: {
-        commons: {
-          name: "commons",
-          minChunks: 1,
-          chunks: "all",
-        },
-      },
-    },
-  },
+  //optimization: {
+  //splitChunks: {
+  //minSize: 0,
+  //cacheGroups: {
+  //commons: {
+  //name: "commons",
+  //minChunks: 1,
+  //chunks: "all",
+  //},
+  //},
+  //},
+  //},
 };
