@@ -111,6 +111,7 @@ module.exports = {
       cssProcessor: require("cssnano"),
     }),
     new CleanWebpackPlugin(),
+    new webpack.optimize.ModuleConcatenationPlugin(),
     //new HtmlWebpackExternalPlugin({
     //externals: [
     //{
