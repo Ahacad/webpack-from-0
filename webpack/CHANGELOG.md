@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/Ahacad/webpack-from-0/compare/v1.4.0...v1.5.0) (2021-02-26)
+
+
+### Features
+
+* add eslint ([2cf0ee5](https://github.com/Ahacad/webpack-from-0/commit/2cf0ee5eb9d53ac31656d69bcb0fa66a327ba6a7))
+
 ## [1.4.0](https://github.com/Ahacad/webpack-from-0/compare/v1.3.0...v1.4.0) (2021-02-26)
 
 
