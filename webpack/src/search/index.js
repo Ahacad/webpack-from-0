@@ -4,6 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./search.less";
 import logo from "../images/savanah.png";
+import largeAddingFoo from "large-adding-foo";
 import "../../common";
 import { a } from "./tree-shaking";
 
@@ -23,10 +24,12 @@ class Search extends React.Component {
   }
   render() {
     const funcA = a();
+    const { Text } = this.state;
+    const addResult = largeAddingFoo("342", "211");
     return (
       <div className="search-text">
         {Text ? <Text /> : null}
-        {funcA}Search Text
+        {funcA}Search Text {addResult}
         <img src={logo} onClick={this.loadComponent.bind(this)} />
       </div>
     );

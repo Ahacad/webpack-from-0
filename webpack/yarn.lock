@@ -4576,6 +4576,11 @@ language-tags@^1.0.5:
   dependencies:
     language-subtag-registry "~0.3.2"
 
+large-adding-foo@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/large-adding-foo/download/large-adding-foo-1.0.0.tgz#3bee82d79b805eb96d578648d40e6be2c8d37ca3"
+  integrity sha1-O+6C15uAXrltV4ZI1A5r4sjTfKM=
+
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/last-call-webpack-plugin/download/last-call-webpack-plugin-3.0.0.tgz#9742df0e10e3cf46e5c0381c2de90d3a7a2d7555"
